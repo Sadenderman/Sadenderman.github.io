@@ -1,0 +1,164 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding:0;
+  background-color: rgb(213, 244, 255);
+}
+
+/*Her er alle overskrifter*/
+h1,H2 {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+h3{
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 1%;
+
+}
+
+
+
+.medieoverskrift{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+ 
+}
+
+/*All annen tekst som ikke er overskrifter*/
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 2%;
+}
+
+.starttekst{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.bildehistorie{
+  text-align: center;
+}
+
+.ikontekst-a{
+  text-align: center;
+}
+
+.ikontekst-b{
+  text-align: center;
+  padding-top: 9%;
+  padding-right: 10%;
+}
+
+
+
+
+
+/*Forskjellige lister*/
+
+/*Denne tilhører navigation bar*/
+ul{
+  overflow: hidden;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(68, 162, 196);
+}
+
+li{
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-family: 'Roboto', sans-serif;
+}
+
+li :hover{
+  background-color: rgb(43, 129, 160);
+}
+
+/*Denne tilhører listen over linjene på skolen*/
+.Linjeliste{
+  font-size: 20px;
+}
+
+
+/*her er all css til forskjellig grid*/
+.grid-div{
+  padding: 40px 4%;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 70px;
+}
+
+.bildegrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 70px;
+  row-gap: 50px;
+  justify-content: center;
+  margin: 40px 20px;
+}
+
+.grid-ikoner{
+  padding-top: 6%;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  justify-content: center;
+  column-gap: 20%;
+}
+
+
+
+/*Bilder*/
+
+.ab{
+  width: 100%;
+}
+
+.AmalieS{
+  width: 100%;
+  padding-top: 10%;
+  border-radius: 36%;
+}
+
+.ikoner{
+  width: 100%;
+}
+
+.discord{
+  width: 89%;
+  border-radius: 25%;
+  padding-top: 25px;
+}
+
+
+.startamalie{
+  padding: 0 24.5%;
+  width: 50%;
+  padding-top: 5%;
+}
+
+.brynjar{
+  width: 860px;
+  padding-top: 20px;
+}
+
