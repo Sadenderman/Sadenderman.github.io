@@ -1,0 +1,13 @@
+/*CSS used only in the PHP section of the site*/
+
+/*Gjør at tabellene har rutenett*/
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* Gives padding to all of the php pages */
+.paramain {
+    padding: 32px;
+}
