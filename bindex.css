@@ -1,65 +1,136 @@
 
-
+/*Gjelder alle elementer*/
 *{
   padding: 0;
   margin: 0;
 }
+/*Gjelder body*/
 body{
   margin: 0;
   padding:0;
   background-color: rgb(213, 244, 255);
 }
 
-/*Her er alle overskrifter*/
-h1,H2 {
-  font-family: 'Roboto', sans-serif;
-  display: inline-block;
-  font-size: 20px;
+/*-------- DROPDOWN --------*/
+
+/*DROPDOWN MENY TING*/
+/*Selve knappen*/
+.dropbtn {
+  background-color: #44a2c4;
+  color: white;
+  padding: 14px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Sier hvor innholdet skal*/
+.dropdown {
+  position: relative;
+  float: left;
+  display: block;
 
 }
 
-h3{
-  text-align: center;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  padding: 1%;
-
+/*Innholdet*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left:0;
+}
+/*Hyperkobling i dropdown menyinnholdet*/
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-
-
-.medieoverskrift{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
- 
+.dropdown-content a:hover {
+  background-color: #f1f1f1
 }
 
-/*All annen tekst som ikke er overskrifter*/
-p{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  padding-top: 2%;
+/*Gjør at menyen vises når du holder over mørkere farge når du holder over knappen*/
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.starttekst{
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0 10%;
-  text-align: center;
+.dropdown:hover .dropbtn {
+  background-color: #4473c4;
 }
 
-.bildehistorie{
-  text-align: center;
-}
+/*Ned til her*/
 
-.ikontekst-a{
-  text-align: center;
-}
 
-.ikontekst-b{
-  text-align: center;
-  padding-top: 9%;
-  padding-right: 10%;
-}
+
+
+
+
+
+
+
+/*------ Overskrifter ------*/
+  /*Standard overskrifter*/
+  h1,H2 {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+
+  }
+
+  /*Comic sans overskrift på hovedsiden*/
+  h3{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 1%;
+
+  }
+
+
+  /*Overskriften på /arbeid.html filen*/
+  .medieoverskrift{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+
+  }
+
+/*----- Text formating -----*/
+  /*All annen tekst som ikke er overskrifter*/
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 2%;
+  }
+
+  /*Undertekst på root index*/
+  .starttekst{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10%;
+    text-align: center;
+  }
+
+  /*Underoverskrift i arbeid siden*/
+  .bildehistorie{
+    text-align: center;
+  }
+
+  /*Tekst for epost*/
+  .ikontekst-a{
+    text-align: center;
+  }
+
+  /*Tekst for discord*/
+  .ikontekst-b{
+    text-align: center;
+    padding-top: 9%;
+    padding-right: 10%;
+  }
 
 
 
@@ -69,9 +140,9 @@ p{
 
 /*Denne tilhører navigation bar*/
 ul{
-  overflow: hidden;
   list-style: none;
   text-decoration: none;
+  height: 47px;
   padding: 0;
   margin: 0;
   background-color: rgb(68, 162, 196);
